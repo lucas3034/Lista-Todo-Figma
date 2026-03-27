@@ -7,7 +7,7 @@ export default function Sidebar({ isOpen, onToggle }) {
     <aside
       className={`flex flex-col h-screen bg-sidebar shadow-sidebar transition-all duration-300 z-20
         fixed md:relative
-        ${isOpen ? 'w-[359px] translate-x-0' : 'w-[80px] -translate-x-full md:translate-x-0'}
+        ${isOpen ? 'w-[359px] translate-x-0' : 'w-[130px] -translate-x-full md:translate-x-0'}
       `}
     >
       <div className={`flex items-center ${isOpen ? 'justify-end px-6' : 'justify-center'} pt-6 pb-2`}>

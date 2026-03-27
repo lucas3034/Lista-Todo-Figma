@@ -3,7 +3,7 @@ export default function SidebarMenuItem({ icon: Icon, label, isActive, isCollaps
     <button
       onClick={onClick}
       className={`flex items-center gap-3 transition-all duration-300 overflow-hidden rounded-xl
-        ${isCollapsed ? 'justify-center w-[60px] h-[54px]' : 'px-4 py-3 w-[291px]'}
+        ${isCollapsed ? 'justify-center w-[90px] h-[54px]' : 'px-4 py-3 w-[291px]'}
         ${isActive ? 'bg-menu-active text-menu-active-text font-bold' : 'text-text-primary hover:opacity-70'}
       `}
     >
