@@ -57,7 +57,7 @@ export default function App() {
       <main className="flex-1 flex flex-col overflow-y-auto min-w-0 relative">
         <button
           onClick={toggleTheme}
-          className="fixed top-3 right-4 sm:top-5 sm:right-8 z-30 text-text-primary hover:opacity-70 transition-opacity"
+          className="fixed top-3 right-4 sm:top-5 sm:right-8 z-[5] text-text-primary hover:opacity-70 transition-opacity"
           aria-label="Toggle theme"
         >
           {theme === 'light' ? <Moon size={28} strokeWidth={1.5} className="sm:w-8 sm:h-8" /> : <Sun size={28} strokeWidth={1.5} className="sm:w-8 sm:h-8" />}
